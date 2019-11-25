@@ -1,0 +1,33 @@
+
+
+.icon-nav
+  display: none
+  @media (min-width: $md)
+    display: flex
+    justify-content: space-between
+    width: 100%
+  a
+    color: black
+    display: flex
+    flex-direction: column
+    text-align: center
+    border-radius: 1em
+
+    margin: 1em
+    height: 11rem
+    margin: 0.5em
+    min-width: 11rem
+    img
+      width: 100%
+      max-width: 84px
+      margin: auto
+      max-height: 50px
+    &:hover,
+    &:active
+      color: white
+      text-decoration: none
+      transition: $duration
+    .icon-title
+      font-family: sans-serif
+      font-size: 1em
+      text-transform: uppercase

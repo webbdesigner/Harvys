@@ -1,0 +1,58 @@
+// GLOBAL MIXINS
+
+// BREAKPOINTS - MOBILE FIRST
+=breakpoint($break)
+  @if $break == large
+    @media (max-width: $lg)
+      @content
+  @else if $break == medium
+    @media (max-width: $md)
+      @content
+  @else if $break == small
+    @media (max-width: $sm)
+      @content
+  @else
+    @media ($break)
+      @content
+
+// Consistant Font Sizes
+@function calculateRem($size)
+  $remSize: $size / 16px
+  @return $remSize * 1rem
+
+@mixin font-size($size)
+  font-size: $size
+  font-size: calculateRem($size)
+
+// GRADIENTS
+=background-gradient($start, $end, $orientation)
+  background: $start
+  @if $orientation == 'toBottom'
+    background: -webkit-linear-gradient($start, $end)
+    background: linear-gradient($start, $end)
+  @else if $orientation == 'toRight'
+    background: -webkit-linear-gradient(left, $start, $end)
+    background: linear-gradient(to right, $start, $end)
+  @else
+    background: -webkit-radial-gradient(center, ellipse cover, $start, $end)
+    background: radial-gradient(ellipse at center, $start, $end)
+
+// Annimations
+=keyframes($animation-name)
+  @-webkit-keyframes #{$animation-name}
+    @content
+  @-moz-keyframes #{$animation-name}
+    @content
+  @-ms-keyframes #{$animation-name}
+    @content
+  @-o-keyframes #{$animation-name}
+    @content
+  @keyframes #{$animation-name}
+    @content
+
+=animation($str)
+  -webkit-animation: #{$str}
+  -moz-animation: #{$str}
+  -ms-animation: #{$str}
+  -o-animation: #{$str}
+  animation: #{$str}
