@@ -28,7 +28,7 @@
     <a href="#" class="list-group-item list-group-item-action bg-light">LIFT RECLINERS</a>
   </ul>
   <div class="sidebar-heading">Shop by brand</div>
-  <div class="list-group list-group-flush">
+  <ul class="list-unstyled components list-group list-group-flush">
     <a href="#" class="list-group-item list-group-item-action bg-light">AAMERICA</a>
     <a href="#" class="list-group-item list-group-item-action bg-light">AMERICAN DREW</a>
     <a href="#" class="list-group-item list-group-item-action bg-light">AMISH</a>
@@ -67,6 +67,6 @@
     <a href="#" class="list-group-item list-group-item-action bg-light">SPEED QUEEN</a>
     <a href="#" class="list-group-item list-group-item-action bg-light">TEMPUR-PEDIC</a>
     <a href="#" class="list-group-item list-group-item-action bg-light">UNIVERSAL</a>
-  </div>
+  </ul>
 </div>
 <!-- /#sidebar-wrapper -->

@@ -37,19 +37,19 @@
     </div>
     <!-- Navigation -->
     <?php include("includes/0_navigation/nav.php"); ?>
-
+<div class="main-wrapper">
     <!-- carousel -->
     <?php include("includes/1_header/header01.php"); ?>
 
     <!-- icon-nav -->
     <?php include("includes/2_content/icon-nav.php"); ?>
-
-    <section class="d-flex container" id="wrapper">
+    <!-- MAIN CONTENT -->
+    <section class="d-flex container main-content" id="wrapper">
       <!-- Sidebar -->
       <?php include("includes/2_content/sidebar.php"); ?>
 
       <!-- Page Content -->
-      <div class="container">
+      <div class="container light">
         <div class="phone lead">252-747-2638</div>
 
         <h2>WELCOME TO HARDY'S APPLIANCE & FURNITURE</h2>
@@ -64,20 +64,13 @@
       </div>
       <!-- End Content -->
     </section>
-
-    <?php include("includes/2_content/manu.php"); ?>
-
+</div>
     <!-- Footer -->
-    <?php include("includes/10_footer/footer_01.php"); ?>
-    <!-- Brand and web ribbon -->
-    <div class="container bw-ribbon">
-      <div class="row">
-        <div class="text-center">
-          <p>Handcrafted by: <a target="_blank" href="http://brandandwebdesigns.com/">Brand and Web Designs</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <footer>
+      <?php include("includes/2_content/manu.php"); ?>
+      <?php include("includes/10_footer/footer_01.php"); ?>
+    </footer>
+    <?php include("includes/bwfooter.php"); ?>
     <!-- Bootstrap Jquery -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -92,5 +85,5 @@
 
 
   </body>
-
+  <!--<a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by freepik - www.freepik.com</a>-->
 </html>

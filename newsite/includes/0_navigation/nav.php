@@ -1,31 +1,23 @@
 <nav class="navbar navbar-default">
-    <div class="container">
-        <div class="navbar-header">
-            <button
-                type="button"
-                class="navbar-toggle collapsed"
-                data-toggle="collapse"
-                data-target="#nav"
-                aria-expanded="false"
-                aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar top-bar"></span>
-                <span class="icon-bar middle-bar"></span>
-                <span class="icon-bar bottom-bar"></span>
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
             </button>
-        </div>
-        <a class="navbar-brand" href="#"><img src="/images/logo4.png" alt=""/></a>
-        <div id="nav" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-left">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Fims</a></li>
-            </ul>
+            <a class="navbar-brand" href="#"><img src="/images/logo4.png" alt="Hardy's Appliance and Furniture"/></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Packages</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+              <li class="active"><a href="#">Home</a><span class="sr-only">(current)</span></a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Location</a></li>
+              <li><a href="#">FAQs</a></li>
             </ul>
-        </div>
-    </div>
-</nav>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>

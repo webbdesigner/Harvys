@@ -1,0 +1,89 @@
+
+.navbar
+  &.navbar-default
+    background-color: $dark
+    border: 0
+    margin-bottom: 0
+    border-radius: 0
+    .container
+      width: 100%
+  &-header
+    float: none
+    height: $mobile_nav_height
+    .icon-bar
+      width: 22px
+      transition: all 0.2s
+    .top-bar
+      transform: rotate(45deg)
+      transform-origin: 10% 10%
+    .middle-bar
+      opacity: 0
+    .bottom-bar
+      transform: rotate(-45deg)
+      transform-origin: 10% 90%
+    &.collapsed
+      .top-bar
+        transform: rotate(0)
+      .middle-bar
+        opacity: 1
+      .bottom-bar
+        transform: rotate(0)
+    .navbar-toggle
+      right: 0
+      border: none
+      background: transparent !important
+      margin-top: 18px
+      &:hover
+        background: transparent !important
+  &-toggle
+    display: block
+  &-collapse
+    border-top: 1px solid transparent
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1)
+    &.collapse
+      display: none !important
+      &.in
+        display: block !important
+  &-nav
+    float: none !important
+    margin: 7.5px -15px
+    >li
+      font-family: $primary
+      font-size: $base-font-size
+      float: none
+      >a
+        color: $primary
+        transition: $duration
+        padding-top: 10px
+        padding-bottom: 10px
+        &:hover,
+        &:focus,
+          color: $white
+  &-right
+    li
+      a
+        @media (min-width: 1200px)
+          padding: $link_padding_lg_left
+  &-left
+    li
+      a
+        @media (min-width: 1200px)
+          padding: $link_padding_lg_right
+  &-text
+    float: none
+    margin: 15px 0
+  &-brand
+    padding: 12px 0 0
+    position: absolute
+    top: 0
+    left: 50%
+    margin-left: $logo_width_sm / -2 !important
+    display: block
+    z-index: 9999
+    img
+      width: $logo_width_sm
+      @media (min-width: 1200px)
+        width: $logo_width_md
+
+.collapsing
+  overflow: hidden !important
