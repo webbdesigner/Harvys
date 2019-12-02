@@ -81,7 +81,8 @@ body {
     .navbar-brand img {
       width: 250px; }
   .navbar .navbar-collapse ul > li {
-    font-family: "Geneva", sans-serif; }
+    font-family: "Geneva", sans-serif;
+    padding: 28px 15px; }
     .navbar .navbar-collapse ul > li > a {
       color: #b3a390;
       font-size: 1.125em; }
@@ -89,8 +90,8 @@ body {
         color: #FFFFFF; }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-  color: #1e130c;
-  background-color: #b3a390; }
+  color: #FFFFFF;
+  background-color: transparent; }
 
 body {
   background: #1e130c;
