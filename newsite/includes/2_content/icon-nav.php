@@ -1,5 +1,6 @@
 <div class="container">
   <div class="icon-nav">
+    <a href="livingroom.php">
       <img src="images/icons/icon-livingroom.png" alt="" class="img-fluid"/>
       <span class="icon-title">Living room suites</span>
     </a>
