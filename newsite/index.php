@@ -31,10 +31,6 @@
 
   <body id="page-top">
 
-    <!-- Preloader -->
-    <div id="preloader">
-      <div id="load"></div>
-    </div>
     <!-- Navigation -->
     <?php include("includes/0_navigation/nav.php"); ?>
 <div class="main-wrapper">

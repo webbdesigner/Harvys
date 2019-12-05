@@ -11,13 +11,13 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="/images/homeimage2.jpg" alt="Chania">
+        <img src="images/homeimage2.jpg" alt="Chania">
       </div>
 
       <div class="item">
-        <img src="/images/homeimage1.jpg" alt="Chania">
+        <img src="images/homeimage1.jpg" alt="Chania">
       </div>
-      
+
     </div>
 
     <!-- Left and right controls -->
