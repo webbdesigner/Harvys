@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 
   <head>
 
@@ -39,7 +39,7 @@
     <?php include("includes/0_navigation/nav.php"); ?>
 <div class="main-wrapper">
     <!-- carousel -->
-    <?php include("includes/1_header/header01.php"); ?>
+
 
     <!-- icon-nav -->
     <?php include("includes/2_content/icon-nav.php"); ?>
@@ -49,18 +49,12 @@
       <?php include("includes/2_content/sidebar.php"); ?>
 
       <!-- Page Content -->
-      <div class="container pl-2 light">
-        <div class="phone lead"><a class="phone" href="tel:252-747-2638">252-747-2638</a></div>
+      <div class="container">
+        <div id="map-container-google-1" class="map-container" style="height: 100%">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.972995197158!2d-77.67313758474738!3d35.45546298024742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89aeba0a0053629d%3A0xcc490741a6c863b1!2s234%20N%20Greene%20St%2C%20Snow%20Hill%2C%20NC%2028580!5e0!3m2!1sen!2sus!4v1575512362430!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 100%" allowfullscreen=""></iframe>
+        </div>
 
-        <h2>WELCOME TO HARDY'S APPLIANCE & FURNITURE</h2>
-        <p>Family owned and operated since 1960.</p>
-        <p>Looking for that new living room, bedroom, or dining room set? Look no further, we have a variety of sofas, recliners, mattresses, and tables to choose from. Let us make your home the one you have always dreamed it would be!</p>
-        <p>Spice up your entertainment! We sell many name brand HD LCD and Plasma TV's and beat "the big boys" prices on better quality TV's.</p>
-        <p>If your shopping for that new stove top, washer/dryer, oven, or refrigerator come see us. We regularly have better prices than the "big box" stores and offer service after the sale!</p>
-        <p>Is you current mattress just uncomfortable or you can't get a good nights sleep. We sell Tempur-Pedic, Simmon's Beauty Rest, & Five Star mattresses at discount prices.</p>
-        <p>We have some of the best Amish solid wood furntiure for your outdoor patio or deck, as well as that brand new Primo Grill you've been wanting!</p>
-        <p>We Serve Raleigh, Durham, Chapel Hill, Wake Forest, Charoltte, New Bern, Kinston, Wilson, Goldsboro, Clayton, Greenville, Garner, Fayetteville, Smithfield, Henderson, Holly Springs, Fuquay Varina, Cary, Lenior County, Franklin County, Pitt County, Harnett County, Greene County, Johnston County, Halifax County, Durham County , Edgecomb County, Wake County, Wilson County</p>
-        <p>Call us at <a class="phone" href="tel:252-747-2638">252-747-2638</a> or <a class="phone" href="location.php">Visit us today!</a></p>
+
       </div>
       <!-- End Content -->
     </section>

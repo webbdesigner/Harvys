@@ -1,31 +1,30 @@
 <div class="container">
-  <div class="icon-nav ">
-    <a href="#">
-      <img class="" src="images/icons/icon-temp.jpg" alt="">
+  <div class="icon-nav">
+      <img src="images/icons/icon-livingroom.png" alt="" class="img-fluid"/>
       <span class="icon-title">Living room suites</span>
     </a>
-    <a href="#">
-      <img src="images/icons/icon-temp.jpg" alt="">
+    <a href="diningroom.php">
+      <img src="images/icons/icon-dining.png" alt="" class="img-fluid"/>
       <span class="icon-title">Dining room Suites</span>
     </a>
-    <a  href="#">
-      <img class="" src="images/icons/icon-temp.jpg" alt="">
-      <span class="icon-title">Bathroom suites</span>
+    <a  href="bedroom.php">
+      <img src="images/icons/icon-bedroom.png" alt="" class="img-fluid"/>
+      <span class="icon-title">Bedroom suites</span>
     </a>
-    <a href="#">
-      <img class="" src="images/icons/icon-temp.jpg" alt="">
+    <a href="occasionals.php">
+      <img src="images/icons/icon-occasionals.png" alt="" class="img-fluid"/>
       <span class="icon-title">occasionals</span>
     </a>
-    <a href="#">
-      <img class="" src="images/icons/icon-temp.jpg" alt="">
+    <a href="appliances.php">
+      <img src="images/icons/icon-appliances.png" alt="" class="img-fluid"/>
       <span class="icon-title">APPLIANCES</span>
     </a>
-    <a href="#">
-      <img class="" src="images/icons/icon-temp.jpg" alt="">
+    <a href="mattresses.php">
+      <img src="images/icons/icon-mattress.png" alt="" class="img-fluid"/>
       <span class="icon-title">mattresses</span>
     </a>
-    <a href="#">
-      <img class="" src="images/icons/icon-temp.jpg" alt="">
+    <a href="electronics.php">
+      <img src="images/icons/icon-electronics.png" alt="" class="img-fluid"/>
       <span class="icon-title">ELECTRONICS</span>
     </a>
   </div>

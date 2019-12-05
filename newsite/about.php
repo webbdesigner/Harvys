@@ -39,7 +39,7 @@
     <?php include("includes/0_navigation/nav.php"); ?>
 <div class="main-wrapper">
     <!-- carousel -->
-    <?php include("includes/1_header/header01.php"); ?>
+
 
     <!-- icon-nav -->
     <?php include("includes/2_content/icon-nav.php"); ?>
@@ -50,17 +50,25 @@
 
       <!-- Page Content -->
       <div class="container pl-2 light">
-        <div class="phone lead"><a class="phone" href="tel:252-747-2638">252-747-2638</a></div>
+        <h2>ABOUT US</h2>
 
-        <h2>WELCOME TO HARDY'S APPLIANCE & FURNITURE</h2>
-        <p>Family owned and operated since 1960.</p>
+        <p>Hardy's Appliance & Furniture is family owned and operated and have been serving our customers the finest furniture for living rooms, bedrooms, dining rooms, washer/dryers, stove tops, refrigerators, plasma and lcd tv's, mattresses, primo grills, and Amish since 1960. We take pride in going the "extra mile" to help our customers be happy with their purchases. We deliver in most areas or can ship anywhere. You truly do "get a better deal in Snow Hill!"</p>
+
         <p>Looking for that new living room, bedroom, or dining room set? Look no further, we have a variety of sofas, recliners, mattresses, and tables to choose from. Let us make your home the one you have always dreamed it would be!</p>
+
         <p>Spice up your entertainment! We sell many name brand HD LCD and Plasma TV's and beat "the big boys" prices on better quality TV's.</p>
-        <p>If your shopping for that new stove top, washer/dryer, oven, or refrigerator come see us. We regularly have better prices than the "big box" stores and offer service after the sale!</p>
-        <p>Is you current mattress just uncomfortable or you can't get a good nights sleep. We sell Tempur-Pedic, Simmon's Beauty Rest, & Five Star mattresses at discount prices.</p>
+
+        <p>If you're shopping for that new stove top, washer/dryer, oven, or refrigerator come see us. We regularly have better prices than the "big box" stores and offer service after the sale!</p>
+
+        <p>Is your current mattress just uncomfortable or you can't get a good nights sleep? We sell Tempur-Pedic, Simmon's Beauty Rest, & Carolina Mattress Guild bedding at discount prices.</p>
+
         <p>We have some of the best Amish solid wood furntiure for your outdoor patio or deck, as well as that brand new Primo Grill you've been wanting!</p>
-        <p>We Serve Raleigh, Durham, Chapel Hill, Wake Forest, Charoltte, New Bern, Kinston, Wilson, Goldsboro, Clayton, Greenville, Garner, Fayetteville, Smithfield, Henderson, Holly Springs, Fuquay Varina, Cary, Lenior County, Franklin County, Pitt County, Harnett County, Greene County, Johnston County, Halifax County, Durham County , Edgecomb County, Wake County, Wilson County</p>
-        <p>Call us at <a class="phone" href="tel:252-747-2638">252-747-2638</a> or <a class="phone" href="location.php">Visit us today!</a></p>
+
+        <p>We Serve Raleigh, Durham, Chapel Hill, Wake Forest, Kinston, Wilson, Goldsboro, Clayton, Greenville, Garner, Fayetteville, Smithfield, Henderson, Holly Springs, Fuquay Varina, Cary, Lenior County, Franklin County, Pitt County, Harnett County, Greene County, Johnston County, Halifax County, Durham County , Edgecomb County, Wake County, Wilson County</p>
+
+        <p>Call us at <a class="phone" href="tel:252-747-2638">252-747-2638</a> or <a href="location.php"> Visit us today!</a></p>
+
+
       </div>
       <!-- End Content -->
     </section>
